@@ -1,0 +1,140 @@
+.items-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.item-container {
+  width: 22%;
+  margin: 20px 0;
+}
+
+.product-img img {
+  width: 100%;
+}
+
+.rating {
+  display: inline-block;
+  position: relative;
+  top: -10%;
+  font-size: 14px;
+  background-color: white;
+  color: black;
+  padding: 0 8px 6px 8px;
+  margin-left: 10px;
+  margin-top: -10%;
+}
+
+.star-icon {
+  transform: translateY(6px) scale(0.8);
+  color: green;
+}
+
+.product-content {
+  margin-top: -5%;
+}
+
+.company-name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  color: #282c3f;
+  margin-bottom: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.product-title {
+  color: #535766;
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 0;
+  margin-top: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 400;
+  display: block;
+}
+
+.price {
+  margin: 10px 0 6px;
+  font-weight: 700;
+}
+
+.sale-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #282c3f;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #7e818c;
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.discount {
+  color: #ff905a;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.add-to-bag button {
+  margin: 10px 0;
+  width: 100%;
+  padding: 8px 5px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff3f6c;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile breakpoint */
+
+@media screen and (max-width: 767px) {
+  .item-container {
+  width: 45%;
+}
+
+.rating {
+  transform: scale(0.7);
+  margin-left: -12px;
+}
+
+.product-title {
+  font-size: 10px;
+}
+
+.company-name {
+  font-size: 12px;
+}
+.sale-price, .original-price, .discount {
+  font-size: 12px;
+}
+.product-content {
+  margin-top: -10px;
+}
+
+.add-to-bag button {
+  font-size: 12px;
+}
+}
+
+/* Tablet breakpoint*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .item-container {
+  width: 30%;
+}
+}

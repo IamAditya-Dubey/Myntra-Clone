@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Myntra</title>
+  <link rel="stylesheet" href="./Style/header-footer.css">
+  <link rel="stylesheet" href="./Style/index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  <header>
+    <div class="header-logo">
+      <span class="material-symbols-outlined menu-mobile-icon">menu</span>
+      <a href="#" class="site_logo"><img src="images/myntra_logo.webp" alt="logo"></a>
+    </div>
+    <nav class="nav-bar">
+      <a href="#" class="nav-items nav-item-0 active">Home</a>
+      <a href="#" class="nav-items nav-item-1">Men</a>
+      <a href="#" class="nav-items nav-item-2">Women</a>
+      <a href="#" class="nav-items nav-item-3">Kids</a>
+      <a href="#" class="nav-items nav-item-4">Home &. Living</a>
+      <a href="#" class="nav-items nav-item-5">Beauty</a>
+      <a href="#" class="nav-items nav-item-6">Studio<sup>New</sup></a>
+      <div class="close-menu-button">&#x2715;</div>
+    </nav>
+    <div class="search-container">
+      <span class="material-symbols-outlined search-icon">search</span>
+      <input type="text" class="search-bar" placeholder="Search for Products...">
+    </div>
+    <div class="action">
+      <div class="search-action"> <span class="material-symbols-outlined">search</span></div>
+      <div class="action-items action-profile">
+        <span class="material-symbols-outlined">person</span>
+        <span class="action-items-text">Profile</span>
+      </div>
+      <div class="action-items action-wishlist">
+        <span class="material-symbols-outlined">favorite</span>
+        <span class="action-items-text" >Wishlist</span>
+      </div>
+      <a href="./Pages/cart.html" class="cart-page-link">
+      <div class="action-items action-shopping-bag">
+        <span class="material-symbols-outlined">shopping_bag</span>
+        <span class="action-items-text" >Bag</span>
+        <span class="bagIcon"></span>
+      </div>
+      </a>
+    </div>
+  </header>
+  <main>
+    <div class="items-container"></div>
+  </main>
+  <footer>
+    <div id="footer-section">
+     <div class="container">
+       <h3 class="footer-section-title">Online Shopping</h3>
+       <a href="#" class="items">Mens</a>
+       <a href="#" class="items">Womens</a>
+       <a href="#" class="items">Kids</a>
+       <a href="#" class="items">New Arrivals</a>
+       <a href="#" class="items">Beauty</a>
+       <a href="#" class="items">Home Appliances</a>
+       </div>
+     <div class="container">
+       <h3 class="footer-section-title">Customer Policy</h3>
+       <a href="#" class="items">Terms</a>
+       <a href="#" class="items">Contact Us</a>
+       <a href="#" class="items">Disclaimer</a>
+       <a href="#" class="items">About Is</a>
+       <a href="#" class="items">Refund Policy</a>
+       <a href="#" class="items">Shipping Policy</a>
+       </div>
+     <div class="container">
+       <h3 class="footer-section-title">Experience Myntra App On Mobile</h3>
+       <div class="app-images">
+         <span><img class="play" src="./images/play.png" alt="play"></span>
+       <span><img class="apple" src="./images/apple.png" alt="apple"></span>
+       </div>
+     </div>
+     <div class="container">
+       <h3 class="footer-section-title">Experience Myntra App On Mobile</h3>
+       <div class="original">
+         <div class="img"><img src="./images/original-stamp.png" alt="original" width="48px" height="40px"></div>
+         <div class="footer-icon-text"><strong>100% ORIGINAL </strong>guarantee for<br>all products at myntra.com</div>
+       </div>
+       <div class="return">
+          <div class="img"><img src="./images/return.png" alt="return" width="48px" height="49px"></div>
+          <div class="footer-icon-text"><strong>Return within 14days </strong>of<br>receiving your order</div>
+       </div>
+     </div>
+      </div>
+    <div id="footer-bar"><p>&copy; Myntra</p></div>
+  </footer>
+  <script src="./Data/items.js"></script>
+  <script src="./Data/script.js"></script>
+  <script src="./Data/menu-open.js"></script>
+</body>
+</html>
